@@ -14,5 +14,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node /dist/app/index.js",
+    "dev": "npx ts-node /src/app/index.ts"
+  },
   "author": { "name": "MrChimKy"}
 }
